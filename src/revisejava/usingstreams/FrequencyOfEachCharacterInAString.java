@@ -2,6 +2,7 @@ package revisejava.usingstreams;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class FrequencyOfEachCharacterInAString {
@@ -15,12 +16,6 @@ public class FrequencyOfEachCharacterInAString {
 			characterList.add((Character) charArray[i]);
 		}
 		
-		
-		characterList.stream().collect(Collectors.groupingBy(c -> c)).entrySet().stream().map(e -> {
-			System.out.println("Character: " + e.getKey() + " Frequency: " + e.getValue().size());
-			return e;
-		}).forEach(System.out::println);
-		
+		characterList.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting())).entrySet().forEach(e -> System.out.println(e.getKey() + "=" + e.getValue()));
 	}
-
 }
