@@ -1,1 +1,2 @@
 # revisejava
+# This is to be imported to eclipse ide as an eclipse project directly and build it with java 21. This is not a maven/gradle project (avoiding dependency management), to keep things simple for practicing few concepts.
