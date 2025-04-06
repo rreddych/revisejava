@@ -1,4 +1,4 @@
-package revisejava;
+package revisejava.usingstreams;
 
 import java.util.Arrays;
 import java.util.List;
