@@ -1,4 +1,4 @@
-package others;
+package com.learn.others;
 
 public class NoOfPairsSummingToResult {
 

@@ -1,4 +1,4 @@
-package revisejava.usingstreams;
+package com.learn.usingstreams;
 
 public class NoOfPairsSummingToResultWithStreams {
 	
