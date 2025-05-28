@@ -1,8 +1,10 @@
-package com.learn.leetcode;
+package com.learn.leetcode.easy;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+
+import com.learn.leetcode.easy.NoOfPairsSummingToResult;
 
 class NoOfPairsSummingToResultTest {
 
