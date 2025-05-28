@@ -7,13 +7,13 @@ import org.junit.jupiter.api.Test;
 class PalindromeTest {
 
 	@Test
-	void testPalindromeNumber() {
+	void testPalindromeNumberUsingStringConversion() {
 		Palindrome palindrome = new Palindrome();
-		assertTrue(palindrome.isPalindrome(121));
-		assertFalse(palindrome.isPalindrome(-121));
-		assertFalse(palindrome.isPalindrome(10));
-		assertTrue(palindrome.isPalindrome(0));
-		assertTrue(palindrome.isPalindrome(1234321));
-		assertFalse(palindrome.isPalindrome(1234567));
+		assertTrue(palindrome.isPalindromeUsingStringConversion(121));
+		assertFalse(palindrome.isPalindromeUsingStringConversion(-121));
+		assertFalse(palindrome.isPalindromeUsingStringConversion(10));
+		assertTrue(palindrome.isPalindromeUsingStringConversion(0));
+		assertTrue(palindrome.isPalindromeUsingStringConversion(1234321));
+		assertFalse(palindrome.isPalindromeUsingStringConversion(1234567));
 	}
 }
