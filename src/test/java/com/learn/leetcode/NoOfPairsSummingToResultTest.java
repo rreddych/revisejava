@@ -1,4 +1,4 @@
-package com.learn.others;
+package com.learn.leetcode;
 
 import static org.junit.jupiter.api.Assertions.*;
 
