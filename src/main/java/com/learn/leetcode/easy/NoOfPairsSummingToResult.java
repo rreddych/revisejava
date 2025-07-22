@@ -13,6 +13,7 @@ public class NoOfPairsSummingToResult {
 					numOfPairs++;
 			}
 		}
+		//Time complexity is O(n^2) and space complexity is O(1)
 		return numOfPairs;
 	}
 }
